@@ -4,7 +4,6 @@ import 'package:eve/cmd/method.dart'
         content,
         current,
         echo,
-        execute,
         help,
         mkdir,
         q,
@@ -128,7 +127,7 @@ final List<String> list = [
   "q",
 ];
 
-final Map<String, List<String>> _alias = {
+final Map<String, List<String>> alias = {
   "help": ["h"],
   "echo": ["show"],
   "mkdir": ["md", "mk"],

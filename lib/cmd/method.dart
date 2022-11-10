@@ -5,7 +5,7 @@ import 'package:eve/sys/dir.dart'
     show changeDir, currentDir, ls, md, newDir, rm;
 import 'package:eve/sys/env.dart' show env;
 import 'package:eve/cmd/cmd.dart' show cmd;
-import 'package:eve/sys/file.dart' show del, exec, make, newFile, read;
+import 'package:eve/sys/file.dart' show del, make, newFile, read;
 
 void help(List<String> _) {
   List<List<Object>> columns = [

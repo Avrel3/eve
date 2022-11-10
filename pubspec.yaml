@@ -9,4 +9,3 @@ dev_dependencies:
   lints: ^2.0.0
 dependencies:
   dolumns: ^2.0.0
-  process_run: ^0.12.3+2
